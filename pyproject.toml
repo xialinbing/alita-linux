@@ -1,0 +1,14 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alita"
+version = "0.6.4"
+description = "Alita Linux AI Agent (robust JSON extraction, force Chinese)"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31.0"]
+
+[project.scripts]
+alita = "alita.main:main"
